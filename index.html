@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WS client</h1>
+    <form action="JavaScript:login()">
+        <!-- <form action="JavaScript:login()"> -->
+            Username
+        <input type="text" id="username"><br>
+        <input type="submit" value="Connect">
+      </form>
+      <form action="JavaScript:send()">
+            Chat<br>
+            <textarea rows="4" cols="50" id="chatOutput"></textarea> <br>
+            To <input type="text" id="reciever"><br>
+            Message <input type="text" id="message"><br>
+            <input type="submit" value="Send">
+        </form>
+        <script src="wsClient.js"></script>
+</body>
+</html>
